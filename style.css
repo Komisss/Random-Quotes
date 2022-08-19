@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(170, 170, 255);
+    min-width: 280px;
+}
+
+.container{
+    width: 95%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(170, 170, 255);
+}
+
+.quotes{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    border: 5px solid black;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button{
+    margin: 0 auto;
+    height: 60px;
+}
+
+@media screen and (max-width: 1000px){
+    .quotes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .quotes p{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .quotes p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 331px){
+    .quotes p{
+        font-size: 1.1rem;
+    }
+
+    .quotes h3{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 311px){
+    .quotes p{
+        font-size: 1rem;
+    }
+
+    .quotes h3{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
